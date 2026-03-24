@@ -1,0 +1,7 @@
+{
+  "name": "MediTrack",
+  "description": "Smart Medicine Reminder System for Elderly Patients with automated tracking, caretaker monitoring, and AI-powered health assistance.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
