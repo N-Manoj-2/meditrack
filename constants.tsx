@@ -1,28 +1,7 @@
 
 import React from 'react';
 
-export const INITIAL_MEDICINES = [
-  {
-    id: '1',
-    name: 'Metformin',
-    dosage: '500mg',
-    time: '08:00',
-    frequency: 'daily' as const,
-    instructions: 'After breakfast',
-    startDate: '2023-10-01',
-    category: 'tablet' as const
-  },
-  {
-    id: '2',
-    name: 'Lisinopril',
-    dosage: '10mg',
-    time: '20:00',
-    frequency: 'daily' as const,
-    instructions: 'Before bed',
-    startDate: '2023-11-15',
-    category: 'tablet' as const
-  }
-];
+export const INITIAL_MEDICINES = [];
 
 export const Icons = {
   Pill: () => (
